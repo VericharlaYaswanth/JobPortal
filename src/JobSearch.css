@@ -1,0 +1,95 @@
+.jobsearch-container {
+    width: 100%;
+    height: 100%;
+    background: #F4F2F6;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.jobsearch-container .search-filters {
+    width: 100%;
+    height: 50px;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.jobsearch-container .search-filters input {
+    flex: 1;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 9pt;
+}
+
+.jobsearch-container .search-filters button {
+    width: 100px;
+    height: 30px;
+    background: rgb(13,150,104);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 9pt;
+}
+
+.jobsearch-container .search-filters button:hover {
+    background: rgb(13,180,104);
+}
+
+.jobsearch-container .job-results {
+    width: 100%;
+    height: calc(100% - 65px);
+    overflow-y: auto;
+    background: #F4F2F6;
+}
+
+.jobsearch-container .job-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.jobsearch-container .job-card h3 {
+    color: #2D7ABE;
+    margin: 0 0 5px 0;
+    font-size: 11pt;
+}
+
+.jobsearch-container .job-card .job-meta {
+    display: flex;
+    gap: 15px;
+    color: #3C4256;
+    font-size: 9pt;
+    margin-bottom: 10px;
+}
+
+.jobsearch-container .job-card p {
+    color: #666;
+    font-size: 9pt;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.jobsearch-container .job-card button {
+    width: 100px;
+    height: 30px;
+    background: #2D7ABE;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 9pt;
+}
+
+.jobsearch-container .job-card button:hover {
+    background: #3C4256;
+}

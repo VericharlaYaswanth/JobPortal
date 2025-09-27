@@ -1,0 +1,62 @@
+.dashboard{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 200px auto;
+    gap: 1px;
+}
+.dashboard .header{
+    grid-column: 1 / span 2;
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+    line-height: 50px;
+    
+}
+.dashboard .menu{
+    border-right: 1px solid rgb(0,0,0,0.1);
+}
+.dashboard .outlet{
+    background: #F4F2F6;
+
+}
+
+.header .logo{
+    width: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.header .logoText{
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 5px;
+    float: left;
+    color:#2D74BE;
+}
+.header .logoText span{
+    color: #3C4256;
+}
+
+.header .logout{
+    width: 24px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.header label{
+    font-weight: bold;
+    float: right;
+    margin-right: 10px;
+}
+.header .logout:hover
+{
+    cursor: pointer;
+    opacity: 0.75;
+}
+.dashboard .outlet {
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
